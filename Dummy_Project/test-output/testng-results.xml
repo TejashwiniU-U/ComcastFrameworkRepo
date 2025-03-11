@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-04T19:31:59Z" name="Suite" finished-at="2025-03-04T19:32:25Z" duration-ms="26519">
+    <groups>
+      <group name="smokeTest">
+        <method signature="CreateOrganizationTest.createOrganizationTest()[pri:0, instance:com.comcast.crm.AnnotationChanges.CreateOrganizationTest@15a34df2]" name="createOrganizationTest" class="com.comcast.crm.AnnotationChanges.CreateOrganizationTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2025-03-04T19:31:59Z" name="Test" finished-at="2025-03-04T19:32:25Z" duration-ms="26519">
+      <class name="com.comcast.crm.AnnotationChanges.CreateOrganizationTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.comcast.crm.AnnotationChanges.CreateOrganizationTest@15a34df2]" started-at="2025-03-04T19:31:58Z" name="configBS" finished-at="2025-03-04T19:31:59Z" duration-ms="660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.crm.AnnotationChanges.CreateOrganizationTest@15a34df2]" started-at="2025-03-04T19:31:59Z" name="configBC" finished-at="2025-03-04T19:32:00Z" duration-ms="1658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.AnnotationChanges.CreateOrganizationTest@15a34df2]" started-at="2025-03-04T19:32:00Z" name="configBM" finished-at="2025-03-04T19:32:06Z" duration-ms="5311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createOrganizationTest()[pri:0, instance:com.comcast.crm.AnnotationChanges.CreateOrganizationTest@15a34df2]" started-at="2025-03-04T19:32:06Z" name="createOrganizationTest" finished-at="2025-03-04T19:32:22Z" duration-ms="16604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganizationTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.AnnotationChanges.CreateOrganizationTest@15a34df2]" started-at="2025-03-04T19:32:22Z" name="configAM" finished-at="2025-03-04T19:32:25Z" duration-ms="2436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.AnnotationChanges.CreateOrganizationTest@15a34df2]" started-at="2025-03-04T19:32:25Z" name="configAC" finished-at="2025-03-04T19:32:25Z" duration-ms="486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.comcast.crm.AnnotationChanges.CreateOrganizationTest@15a34df2]" started-at="2025-03-04T19:32:25Z" name="configAS" finished-at="2025-03-04T19:32:25Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.comcast.crm.AnnotationChanges.CreateOrganizationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
