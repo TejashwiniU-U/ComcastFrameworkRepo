@@ -13,10 +13,11 @@ public class HomePage {
 	public HomePage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
+		System.out.println("hiii");
 	}
 	
 	@FindBy(linkText = "Documents")
-	private WebElement docLinks;
+	private WebElement docsLinks;
 	
 	
 	@FindBy(linkText = "Organizations")
