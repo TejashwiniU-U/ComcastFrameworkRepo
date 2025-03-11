@@ -16,7 +16,7 @@ public class HomePage {
 	}
 	
 	@FindBy(linkText = "Documents")
-	private WebElement docLink;
+	private WebElement docLinks;
 	
 	
 	@FindBy(linkText = "Organizations")
