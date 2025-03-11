@@ -8,5 +8,8 @@ public class Documents {
 	@FindBy(xpath="//img[@alt='Create Document...']")
 	private WebElement DocPlus;
 	
+	@FindBy(xpath="search")
+	private WebElement ele2;
+	
 	
 }
