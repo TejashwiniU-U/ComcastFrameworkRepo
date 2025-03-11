@@ -89,7 +89,7 @@ public class HomePage {
 	}
 
 	public WebElement getDocLink() {
-		return docLink;
+		return docsLinks;
 	}
 
 }
