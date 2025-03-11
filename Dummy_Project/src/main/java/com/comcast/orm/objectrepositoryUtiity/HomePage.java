@@ -13,7 +13,12 @@ public class HomePage {
 	public HomePage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
+		System.out.println("hiii");
 	}
+	
+	@FindBy(linkText = "Documents")
+	private WebElement docsLinks;
+	
 	
 	@FindBy(linkText = "Organizations")
 	private WebElement orgLink;
@@ -81,6 +86,10 @@ public class HomePage {
 		Actions act = new Actions(driver);
 		act.moveToElement(adminImg).perform();
 		signoutlnk.click();
+	}
+
+	public WebElement getDocLink() {
+		return docsLinks;
 	}
 
 }
